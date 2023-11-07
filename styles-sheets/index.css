@@ -8,6 +8,7 @@
     background-color: rgb(0, 0, 0);
     padding-bottom: 20px;
     color: aqua;
+    display: block;
 }
 
 .learn-more, .see-projects {
@@ -16,10 +17,6 @@
     padding: 10px;
     border-radius: 7px;
     border: solid rgb(220, 0, 143);
-}
-
-.frog-2 {
-    width: 400px;
 }
 
 .review-img {
@@ -35,6 +32,15 @@ border-radius: 50%;
 }
 
 .mid-page {
-    background-color: rgb(156, 217, 197);
+    background-image: linear-gradient( rgb(1, 161, 158), black);
     padding-bottom: 20pt;
+}
+
+.organic {
+    display: block;
+    background-image: linear-gradient(black, rgb(1, 161, 158));
+}
+
+.index-body {
+    background-color: black;
 }
