@@ -1,7 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
 .site-top {
     background-color: rgb(0, 0, 0);
     padding-bottom: 20px;
     color: aqua;
+    display: block;
 }
 
 .learn-more, .see-projects {
@@ -10,4 +17,30 @@
     padding: 10px;
     border-radius: 7px;
     border: solid rgb(220, 0, 143);
+}
+
+.review-img {
+    width: 70px;
+border-radius: 50%;
+}
+
+.card-review {
+    background-color: whitesmoke;
+    border-radius: 10pt;
+    margin: 10px;
+    padding: 5px;
+}
+
+.mid-page {
+    background-image: linear-gradient( rgb(1, 161, 158), black);
+    padding-bottom: 20pt;
+}
+
+.organic {
+    display: block;
+    background-image: linear-gradient(black, rgb(1, 161, 158));
+}
+
+.index-body {
+    background-color: black;
 }
