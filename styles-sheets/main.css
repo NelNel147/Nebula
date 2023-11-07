@@ -4,22 +4,9 @@
    box-sizing: border-box; 
 }
 
-.frog-gif {
-width: 400px;
-}
 
-.learn-more, .see-projects {
-    background-color: green;
-    color: greenyellow;
-    padding: 10px;
-    border-radius: 7px;
-    border: solid rgb(132, 220, 0);
-}
 
-.site-top {
-    background-color: rgb(173, 222, 223);
-    padding-bottom: 20px;
-}
+
 
 .frog-2 {
     width: 400px;
@@ -42,3 +29,6 @@ border-radius: 50%;
     padding-bottom: 20pt;
 }
 
+.container {
+    background-color: black;
+}
