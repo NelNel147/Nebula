@@ -29,3 +29,6 @@ border-radius: 50%;
     padding-bottom: 20pt;
 }
 
+.container {
+    background-color: black;
+}
