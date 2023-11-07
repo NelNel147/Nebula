@@ -7,3 +7,37 @@
 .frog-gif {
 width: 400px;
 }
+
+.learn-more, .see-projects {
+    background-color: green;
+    color: greenyellow;
+    padding: 10px;
+    border-radius: 7px;
+    border: solid rgb(132, 220, 0);
+}
+
+.site-top {
+    background-color: rgb(173, 222, 223);
+    padding-bottom: 20px;
+}
+
+.frog-2 {
+    width: 400px;
+}
+
+.review-img {
+    width: 70px;
+border-radius: 50%;
+}
+
+.card-review {
+    background-color: whitesmoke;
+    border-radius: 10pt;
+    margin: 10px;
+    padding: 5px;
+}
+
+.mid-page {
+    background-color: rgb(156, 217, 197);
+    margin-bottom: 10pt;
+}
