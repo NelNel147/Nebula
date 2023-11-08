@@ -39,6 +39,7 @@ border-radius: 50%;
 .organic {
     display: block;
     background-image: linear-gradient(black, rgb(1, 161, 158));
+color: aqua;
 }
 
 .index-body {
