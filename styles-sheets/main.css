@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* font-family: 'Audiowide', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box; 
 }
+/* fonts */
+.bold-font {
+  font-family: 'Audiowide', sans-serif;
+}
 
+.medium-font {
+  font-family: 'Ubuntu', sans-serif;
+}
 /* Elements */
 
 footer {
