@@ -53,6 +53,14 @@ color: aqua;
 .plans {
     color: black;
     background-color: rgb(32, 186, 186);
-width: 33%;
+width: 400px;
 border-radius: 10px;
+}
+
+.select {
+    background-color: black;
+    color: aqua;
+    padding: 10pt;
+    margin: 10px;
+
 }
