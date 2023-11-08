@@ -45,3 +45,14 @@ color: aqua;
 .index-body {
     background-color: black;
 }
+
+.technology {
+    width: 400px;
+}
+
+.plans {
+    color: black;
+    background-color: aqua;
+width: 33%;
+border-radius: 10px;
+}
