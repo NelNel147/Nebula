@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
 
  body {
-    font-family: "Roboto", sans-serif;
-    color: #3a3f52;
+  font-family: 'Turret Road', sans-serif;
   }
   
   h2 {
@@ -157,10 +156,6 @@
   
   .btn-demo-small:hover {
     background-color: #f09f3c;
-  }
-  
-  .btn-demo-small a {
-    color: #ffffff !important;
   }
   
   .btn-buy {
