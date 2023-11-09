@@ -1,77 +1,99 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
- }
-
-
-
-
-
-
-.site-top {
-    background-color: rgb(0, 0, 0);
-    padding-bottom: 20px;
-    color: aqua;
-    display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.learn-more, .see-projects {
-    background-color: rgb(126, 0, 128);
-    color: rgb(47, 255, 186);
-    padding: 10px;
-    border-radius: 7px;
-    border: solid rgb(220, 0, 143);
+body {
+    background-color: black;
+    color: white;
+}
+h3{
+    text-align: center;
+    color: blueviolet;
+}
+
+h4 {
+        text-align: center;
+    }
+
+.site-top {
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  color: black;
+  display: block;
+}
+
+.learn-more,
+.see-projects {
+  background-color: rgb(126, 0, 128);
+  color: rgb(47, 255, 186);
+  padding: 10px;
+  border-radius: 7px;
+  border: solid rgb(220, 0, 143);
 }
 
 .review-img {
-    width: 70px;
-border-radius: 50%;
+  width: 70px;
+  border-radius: 50%;
 }
 .card-review1 {
-    background-color: blue;
-    border-radius: 10pt;
-    margin: 10px;
-    padding: 5px;
+  background-color: blue;
+  border-radius: 10pt;
+  margin: 10px;
+  padding: 5px;
 }
 
 .card-review2 {
-    background-color: orange;
-    border-radius: 10pt;
-    margin: 10px;
-    padding: 5px;
+  background-color: orange;
+  border-radius: 10pt;
+  margin: 10px;
+  padding: 5px;
 }
 
 .mid-page {
-    background-image: linear-gradient( rgb(1, 161, 158), black);
-    padding-bottom: 20pt;
+  background-image: linear-gradient(rgb(1, 161, 158), black);
+  padding-bottom: 20pt;
 }
 
 .organic {
-    display: block;
-    background-image: linear-gradient(black, rgb(1, 161, 158));
-color: aqua;
+  display: block;
+  background-image: linear-gradient(black, rgb(1, 161, 158));
+  color: aqua;
 }
 
 .index-body {
-    background-color: black;
+  background-color: black;
 }
 
 .technology {
-    width: 400px;
+  width: 400px;
 }
 
 .plans {
-    color: black;
-    background-color: rgb(32, 186, 186);
-    width: 400px;
-    border-radius: 10px;
+  color: black;
+  background-color: rgb(32, 186, 186);
+  width: 400px;
+  border-radius: 10px;
 }
 
 .select {
-    background-color: black;
-    color: aqua;
-    padding: 10pt;
-    margin: 10px;
+  background-color: black;
+  color: aqua;
+  padding: 10pt;
+  margin: 10px;
+}
 
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
 }
