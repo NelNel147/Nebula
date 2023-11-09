@@ -8,7 +8,6 @@
     <link rel="example" href="https://kody-wright.github.io/team-charizard-2.0/index.html">
     <!--EXAMPLE-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="styles-sheets/main.css" />
     <link rel="stylesheet" href="styles-sheets/index.css">
     <link rel="stylesheet" href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -21,109 +20,319 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/34c85e11da.js" crossorigin="anonymous"></script>
   </head>
-  <!--NAV BAR-->
   <body class="index-body">
-    <nav class="navbar navbar-expand-lg text-bg-primary">
-        <div class="container-fluid">
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Log In / Sign Up</a>
-              </li>
-              <a class="navbar-brand" href="index.html"><img src="images/groupimage.png" alt="galaxy" width="20" height="20"></a>
+    <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="icon ion-md-menu"></span>
+      </button>
+      <img
+        src="images/TEAM CHARIZARD2.png"
+        class="img-fluid nav-logo-mobile"
+        alt="Nebula Logo"
+      />
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="container">
+          <img
+            src="images/TEAM CHARIZARD2.png"
+            class="img-fluid nav-logo-desktop"
+            alt="Nebula Logo"
+            width="100"
+          />
+          <ul
+            class="navbar-nav ml-auto nav-right"
+            data-easing="easeInOutExpo"
+            data-speed="1250"
+            data-offset="65"
+          >
+            <li class="nav-item nav-custom-link">
+              <a class="nav-link" href="index.html"
+                >Home <i class="icon ion-ios-arrow-forward icon-mobile"></i
+              ></a>
+            </li>
+            <li class="nav-item nav-custom-link">
+              <a class="nav-link" href="#marketing"
+                >Projects <i class="icon ion-ios-arrow-forward icon-mobile"></i
+              ></a>
+            </li>
+            <li class="nav-item nav-custom-link">
+              <a class="nav-link" href="#testimonials"
+                >Testimonials
+                <i class="icon ion-ios-arrow-forward icon-mobile"></i
+              ></a>
+            </li>
+            <li class="nav-item nav-custom-link">
+              <a class="nav-link" href="#pricing"
+                >Pricing <i class="icon ion-ios-arrow-forward icon-mobile"></i
+              ></a>
+            </li>
+            <li class="nav-item nav-custom-link">
+              <a class="nav-link" href="about.html"
+                >About Us<i class="icon ion-ios-arrow-forward icon-mobile"></i
+              ></a>
+            </li>
+            <li class="nav-item nav-custom-link btn btn-demo-small">
+              <a class="nav-link" href="login.html"
+                >Log In / Sign Up<i
+                  class="icon ion-ios-arrow-forward icon-mobile"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <!--NAV BAR-->
+      <section id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+              <img
+                src="images\groupimage.png" class="img-fluid" alt="nebula" width="80%"/>
+            </div>
+            <div class="col-md-7 content-box hero-content">
+              <span>Unlimited Web / App Development</span>
+              <h1>Galatic Digital Innovation and the <b>Future of Web Development</b></h1>
+              <p>
+                Let our amazing developers create the perfect web app for your
+                needs
+              </p>
+              <a href="#pricing" class="btn btn-regular">BLAST OFF!</a>
+            </div>
           </div>
         </div>
-      </nav>
-      <!--NAV BAR-->
-<div class="site-top">
-      <img src="images/citadel.png" alt="citadel" class="galaxy" width="100%">
-<p>Unlimited Web Development</p>
-<h1 class="bold-font">Digital Innovation and the <span>Future of Web Development</span></h1>
-<p class="medium-font">Let our amazing developers create the perfect web app for your needs</p>
-<a class="learn-more medium-font" href="about.html" target="_blank" style="text-decoration: none">Learn More</a>
-</div>
-<br>
-<section class="organic">
-<h4>ORGANIC CUSTOM STRATEGY</h4>
-<h1>Elite Coding</h1>
-<p class="medium-font">It's not a list of deliverables, it's a plan tailor-made to your business.</p>
-<a class="see-projects" href="projects.html" target="_blank" style="text-decoration: none">See Projects</a>
-<img class="technology" src="/images/technology.gif" alt="">
+      </section>
+<section id="marketing">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <div class="content-box">
+          <span>Organic Custom Strategy</span>
+          <h2>Elite Coding</h2>
+          <p>
+            It's not a list of deliverables, it's a plan tailor-made to your
+            business.
+          </p>
+          <a href="#" class="btn btn-regular">See Projects</a>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <img
+          src="images/meteor-solid.svg" width="50%"
+          class="img-fluid"
+          alt="Demo image"
+        />
+      </div>
+    </div>
+  </div>
 </section>
-<div class="mid-page">
-    <h1>The Top Businesses In Madison Recommend Our Agency</h1>
-  <p class="medium-font">We are industry experts with the skills and experience to deliver excellent results on every project</p>
-  <div class="card-review1">
-    <img class="review-img" src="/images/reviewer1.jpg" alt="frog">
-
-    <h2 class="reviewer-name bold-font">Frog Dude</h2>
-    <p class="review-star">
-    <i class="fa-regular fa-star"></i>
-    <i class="fa-regular fa-star"></i>
-    <i class="fa-regular fa-star"></i>
-    <i class="fa-regular fa-star"></i>
-    <i class="fa-regular fa-star"></i>
-
-    </p>
-    <p class="review-position">CEO | Lilly Pad LLC</p>
-    <p class="review-text medium-font">I can't say enough good things about the web development services provided by this team! From start to finish, the experience was flawless. They took our vision and turned it into a stunning website that exceeded our expectations.</p>
+<section id="testimonials">
+  <div class="container">
+    <div class="title-block">
+      <h2>The Top Businesses In Madison Recommend Our Agency</h2>
+      <p>
+        We are industry experts with the skills and experience to deliver
+        excellent results on every project
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="testimonial-box">
+          <div class="row personal-info">
+            <div class="col-md-2 col-xs-2">
+              <div class="profile-picture review-one"></div>
+            </div>
+            <div class="col-md-10 col-xs-10">
+              <h6>
+                Vanessa M.
+                <span class="rating"
+                  >5 <i class="icon ion-md-star"></i
+                ></span>
+              </h6>
+              <small>CEO | YWCA Madison</small>
+            </div>
+          </div>
+          <p>
+            I can't say enough good things about the web development
+            services provided by this team! From start to finish, the
+            experience was flawless. They took our vision and turned it into
+            a stunning website that exceeded our expectations.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="testimonial-box">
+          <div class="row personal-info">
+            <div class="col-md-2 col-xs-2">
+              <div class="profile-picture review-two"></div>
+            </div>
+            <div class="col-md-10 col-xs-10">
+              <h6>
+                Brandi G.
+                <span class="rating"
+                  >5 <i class="icon ion-md-star"></i
+                ></span>
+              </h6>
+              <small>CEO | Urban Triage</small>
+            </div>
+          </div>
+          <p>
+            What I appreciate most about their service is the ongoing
+            support and dedication. They continue to be available for
+            updates and maintenance, ensuring our website stays current and
+            secure. I highly recommend their agency!
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="card-review2">
-    <img class="review-img" src="images/Sundar_Pichai_(2023)_cropped.jpg" alt="frog2" height="80px">
-    <h2 class="reviewer-name bold-font">Sundar Pichai</h2>
-    <p class="review-star">
-    <i class="fa-regular fa-star"></i>
-    <i class="fa-regular fa-star"></i>
-    <i class="fa-regular fa-star"></i>
-    <i class="fa-regular fa-star"></i>
-    <i class="fa-regular fa-star"></i>
-    </p>
-    <p class="review-position">CEO | <i class="fa-brands fa-google fa-beat-fade fa-xs" style="color: #005eff;"></i>oogle Inc.</p>
-    <p class="review-text medium-font">I can't say enough good things about the web development services provided by this team! From start to finish, the experience was flawless. They took our vision and turned it into a stunning website that exceeded our expectations.</p>
+</section>
+<!-- P R I C I N G -->
+<section id="pricing">
+  <div class="container">
+    <div class="title-block">
+      <h2><i class="fa-solid fa-earth-oceania"></i>Planets and Pricing<i class="fa-solid fa-earth-oceania"></i></h2>
+      <p>
+        The best web development company in the universe and the most affordable.
+        Check out our planets to see which one best fits your needs.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="pricing-box">
+          <h3 class="demo">MARS</h3>
+          <h6>$10K</h6>
+          <small>1-3 months</small>
+          <p>
+            This plan will give you all basics needed to launch your website
+          </p>
+          <div class="divider-light"></div>
+          <ul>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline demo"></i
+              >Marketing plan
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline demo"></i>Seo
+              reporting tool
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline demo"></i
+              >Keywords explorer
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline demo"></i
+              >Competitive analysis
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline demo"></i>5
+              updates - <span class="demo">¡New!</span>
+            </li>
+          </ul>
+          <div class="text-center">
+            <a href="#" class="btn btn-demo">Select</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing-box">
+          <h3 class="demo2">NEPTUNE</h3>
+          <h6>$25K</h6>
+          <small>3-6 months</small>
+          <p>
+            Looking for something a bit more fancy, we've got you covered
+          </p>
+          <div class="divider-light"></div>
+          <ul>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i>Marketing
+              plan
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i>Seo
+              reporting tool
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i>Keywords
+              explorer
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i
+              >Competitive analysis
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i>10 updates
+              - <span>¡New!</span>
+            </li>
+          </ul>
+          <div class="text-center">
+            <a href="#" class="btn btn-buy">Select</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing-box">
+          <h3 class="demo3">SATURN</h3>
+          <h6>$50K</h6>
+          <small>up to 1 year</small>
+          <p>
+            For businesses wanting a web application and not the standard
+          </p>
+          <div class="divider-light"></div>
+          <ul>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i>Marketing
+              plan
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i>Seo
+              reporting tool
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i>Keywords
+              explorer
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i
+              >Competitive analysis
+            </li>
+            <li>
+              <i class="icon ion-md-checkmark-circle-outline"></i>Unlimited
+              updates - <span>¡New!</span>
+            </li>
+          </ul>
+          <div class="text-center">
+            <a href="#" class="btn btn-buy">Select</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-<div class="plans">
- <h1 class="text-black">Plans and Pricing</h1>
- <p class="text-black">The best web development firm in Madison and the most affordable. Check out our plans to see which one best fits your needs.</p>
-<div class="pricing-card">
-  <h3 class="pricing-title">Mars</h3>
-  <h1 class="pricing-cost">$10K💵</h1>
-  <p class="pricing-time">1-3 months⌚</p>
-   <p class="pricing-plan-info">This plan will give you all basics needed to launch your website</p>
-   <ul>
-    <li><span class="fa-li"><i class="fa-solid fa-frog"></i></span>Marketing plan</li>
-    <li>Seo reporting tool</li>
-    <li>Keywords explorer</li>
-    <li>Competitive analysis</li>
-    <li>5 updates - ¡New!</li>
-  </ul>
-</div>
-  <a class="select" href="about.html" target="_blank" style="text-decoration: none">select</a>
-</div>
-</div>
+</section>
+<section id="call-to-action">
+  <div class="container text-center">
+    <h2 class="text-primary">Increase Your Presence in the Galaxy Now</h2>
+    <div class="title-block">
+      <p class="text-warning">
+        Allow us to help increase both your online and offline presence and
+        boost your sales and profits.
+      </p>
+      <a href="about.html" class="btn btn-regular">Contact Us</a>
+    </div>
+  </div>
+</section>
 <!--FOOTER-->
 <footer>
-  <div class="container">
+  <div class="container"">
     <div class="row">
       <div class="col-md-3">
         <h5 class="text-primary"><a href="https://www.w3schools.com/html/default.asp" class="text-primary" style="text-decoration: none">HTML</a><span class="material-symbols-outlined">
@@ -195,9 +404,20 @@
 </footer>
 <!--FOOTER-->
 <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+<script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
