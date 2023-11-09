@@ -344,3 +344,6 @@ h1 {
   width: 85%;
 }
 
+.flex {
+  display: flex;
+}
