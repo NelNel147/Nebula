@@ -24,7 +24,7 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.05em;
-    color: #53627c;
+    color: blueviolet;
   }
   
   ul {
@@ -203,19 +203,20 @@
   #hero h1, #hero-about h1 {
     font-size: 50px;
     font-weight: 300;
+    color: chartreuse;
   }
   
   #hero p {
     font-size: 24px;
     font-weight: 300;
-    color: #8da2b5;
+    color: goldenrod;
     margin-bottom: 0px;
     padding: 0px;
   }
   
   #hero span {
     font-weight: 400;
-    color: #4b95a3ff;
+    color: blueviolet;
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
@@ -376,14 +377,21 @@
   .pricing-box .demo {
     color: #ef8c15 !important;
   }
+
+  .demo2 {
+    color: blue !important
+  }
   
+  .demo3 {
+    color: brown !important
+  }
   .not-inlcuded {
     text-decoration: line-through !important;
   }
   
   
   #call-to-action {
-    background-image: url("https://preview.redd.it/angled-waves-v0-4u36ktors1la1.png?auto=webp&s=618480f4022dd0f1c953c5e51eca82c1df22f762");
+    background-image: url("https://i.pinimg.com/originals/c3/16/27/c3162775635d404d6462187ea4b5941f.gif");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -415,7 +423,8 @@
     margin-bottom: 0px;
   }
 
-  @media (max-width: 575.98px) {
+  /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
     h2 {
       font-size: 34px !important;
       margin-bottom: 20px;
@@ -521,6 +530,12 @@
       max-width: 185px;
     }
   
+    .nav-logo-desktop {
+      display: none;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
   @media (min-width: 992px) {
     .icon-mobile {
       display: none;
@@ -530,12 +545,14 @@
     }
   }
   
+  /* Extra large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) {
     .hero-content {
       margin-top: 100px;
     }
   }
   
+  /* Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) and (max-width: 991.98px) {
     .pricing-box h3 {
       font-size: 17px;
@@ -625,11 +642,6 @@
     float: right;
   }
   
-  
-  .frog-2 {
-      width: 400px;
-  }
-  
   .review-img {
       width: 70px;
   border-radius: 50%;
@@ -650,4 +662,4 @@
     
   .external-links {
     color: orange;
-  }
+    }
