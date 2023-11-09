@@ -40,5 +40,307 @@
      
    }
     
-    ;
-  }
+  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.services-table {
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  box-shadow: 0.5px 0.5px 3px #333;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: orange;
+}
+
+th {
+  background-color: rgba(220, 93, 8, 0.89);
+  
+}
+
+section {
+  height: 400px;
+  padding: 40px;
+  margin-bottom: 60px;
+}
+
+footer {
+  padding: 40px;
+  height: 100px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+}
+
+#leadership-footer {
+  background-color: #e42228ff;
+}
+
+.about-section {
+  background-color: orange;
+}
+
+.about-hours h1,
+.about-section h1,
+.email-section h1,
+.leadership-section h1,
+div {
+  margin-bottom: 15px;
+}
+
+.about-section div {
+  margin: auto;
+}
+
+.about-section video {
+  float: left;
+  border: 4px solid #4b95a3ff;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.services-section p,
+.email-section p, .leadership-section p {
+  margin-bottom: 15px;
+}
+
+.email-section,
+.leadership-section {
+  height: auto;
+}
+
+nav div a img {
+  height: 100px;
+}
+
+.header {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+    url("flareon trans.webp"), url("pokemon\ bg.jpg");
+  background-size: cover, contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #4c96a4ff;
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+  height: 350px;
+  /* font-size: 30px; */
+}
+
+.hours-header {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+    url("images/flareon.2.jpg");
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  height: 350px;
+  /* font-size: 30px; */
+}
+
+.contact-header {
+  text-align: center;
+  background-color: #4b95a3ff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+    url("images/580b57fcd9996e24bc43c31d.png"),
+    url("images/696729.jpg");
+  background-size: cover, contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  height: 350px;
+  /* font-size: 30px; */
+}
+.leadership-header {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+    url("/flareon-fire-spin.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  height: 350px;
+  /* font-size: 30px; */
+}
+
+.about-hours .top {
+  clear: left;
+}
+
+.about-hours-table {
+  border-collapse: collapse;
+  width: 50%;
+  float: left;
+  box-shadow: 0.5px 0.5px 3px #333;
+  margin-right: 15px;
+}
+
+.header-content {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.header-content h1 {
+  margin-bottom: 25px;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+a:hover {
+  font-size: larger;
+  color: #fcf294ff;
+}
+
+.top {
+  text-decoration: none;
+  padding: 15px;
+  color: #fff;
+  background: red;
+  border-radius: 100px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4b95a3ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(90, 176, 193);
+}
+
+.form-div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: auto;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+  /* display: none; */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  float: left;
+  text-align: center;
+  margin-left: 15px;
+  border-radius: 10px;
+  
+}
+
+.title {
+  color: brown;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(228, 34, 170);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.card img {
+  width: 60%;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+.card-div {
+  width: 100%;
+  margin: auto;
+  color: chocolate;
+}
+
+button:hover {
+  background-color: rgb(193, 104, 90);
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 {
+  color: chocolate;
+}
+
+#contact {
+  background-color: lightgoldenrodyellow;
+  border: 1px solid #000000;
+}
+
+#contact input, textarea {
+  width: 85%;
+}
+
