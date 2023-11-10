@@ -314,7 +314,7 @@
   
   .pricing-box {
     background-color: #ffffff;
-    background-image: url(https://images.unsplash.com/photo-1639477735279-c36dda1f7ebb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hcnN8ZW58MHx8MHx8fDA=);
+    background-image: url('https://images.unsplash.com/photo-1639477735279-c36dda1f7ebb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hcnN8ZW58MHx8MHx8fDA=');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -328,7 +328,7 @@
 
   .pricing-box2 {
     background-color: #ffffff;
-    background-image: url(https://github.com/NelNel147/Nebula/blob/main/images/saturn.jpg);
+    background-image: url('https://images.unsplash.com/photo-1639477878754-4119b60fb02a?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -342,6 +342,10 @@
 
   .pricing-box3 {
     background-color: #ffffff;
+    background-image: url('https://images.unsplash.com/photo-1639548206755-b20081a7cadc?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     padding: 40px 20px;
     border: 1px solid #f8f9fb;
     border-radius: 6px;
