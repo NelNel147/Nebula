@@ -1,7 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
+/*///////////////////////////////////////////////////////////////////////////////////
 
- body {
-  font-family: 'Turret Road', sans-serif;
+	Theme Name: Seo Company
+	Description: The Seo Company v1.0
+	Author: Diego Velázquez Rabasa - Templune
+	Author Personal Website: http://templune.com
+	Author Behance Profile: https://www.behance.net/diegovr7
+	Author Dribbble Profile: https://dribbble.com/diegovr7
+	Author Envato Profile: https://themeforest.net/user/diegovr7
+	Version: 1.0
+
+	External Resources:
+	Bootstrap 4
+	Google Fonts 
+	Ionic Icons
+
+	*This Html Theme is royalty free for use in personal and commercial projects with 
+	a couple of restrictions.
+
+	Publications
+	You are welcome to republish this Html Theme on condition that you link back to
+	https://www.behance.net/gallery/67279127/The-Seo-Company-Free-PSD-Template 
+	and you should not provide the assets for direct download from your website.
+
+	Prohibitions
+	You do not have rights to redistribute, resell, lease, license, sub-license or offer
+	this resource to any third party «as is». If you want to use this resource as a part
+	of a product intended to be sold via any marketplace, please contact the author 
+	templune@gmail.com of the freebie to get an extended license.
+
+/////////////////////////////////////////////////////////////////////////////////*/
+
+/* /////////////////////////////
+
+	1. Basic Styles
+	2. Navbar
+	3. Buttons
+	4. Hero
+	5. Marketing
+	6. Testimonials
+	7. Pricing
+	8. Call to Action
+	9. Footer
+	10. Media Queries
+
+   //////////////////////////*/
+
+/* /////////////////////////////
+
+
+   COLORS 
+--flax: #FCF294ff;
+--dark-slate-gray: #2B4C4Dff;
+--caramel: #C68553ff;
+--blue-munsell-2: #4B95A3ff;
+--teal: #247986ff;
+
+//////////////////////////*/
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #3a3f52;
   }
   
   h2 {
@@ -23,7 +81,7 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.05em;
-    color: blueviolet;
+    color: #53627c;
   }
   
   ul {
@@ -66,6 +124,9 @@
     border-top: 1px solid #edf1f2;
   }
   
+  /* ==============================================
+     2. Navbar 
+  ===============================================*/
   
   .custom-navbar {
     background-color: #ffffff !important;
@@ -107,6 +168,9 @@
     float: right;
   }
   
+  /* ==============================================
+     3. Buttons
+  ===============================================*/
   
   .btn {
     font-size: 14px;
@@ -158,6 +222,10 @@
     background-color: #f09f3c;
   }
   
+  .btn-demo-small a {
+    color: #ffffff !important;
+  }
+  
   .btn-buy {
     color: #ffffff;
     background-color: #4b95a3ff;
@@ -173,10 +241,13 @@
     color: #ffffff;
   }
   
+  /* ==============================================
+     4. Hero
+  ===============================================*/
   
   #hero {
     background-color: #f6f8f9;
-    background-image: url("https://getwallpapers.com/wallpaper/full/2/f/5/189033.jpg");
+    background-image: url("https://png.pngtree.com/background/20220726/original/pngtree-orange-border-abstract-watercolor-texture-picture-image_1812115.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -198,24 +269,26 @@
   #hero h1, #hero-about h1 {
     font-size: 50px;
     font-weight: 300;
-    color: chartreuse;
   }
   
   #hero p {
     font-size: 24px;
     font-weight: 300;
-    color: goldenrod;
+    color: #8da2b5;
     margin-bottom: 0px;
     padding: 0px;
   }
   
   #hero span {
     font-weight: 400;
-    color: blueviolet;
+    color: #4b95a3ff;
     text-transform: uppercase;
     letter-spacing: 0.05em;
   }
   
+  /* ==============================================
+     5. Marketing
+  ===============================================*/
   
   #marketing p {
     font-size: 20px;
@@ -236,6 +309,9 @@
     padding: 60px 20px;
   }
   
+  /* ==============================================
+     6. Testimonials
+  ===============================================*/
   
   #testimonials {
     background-color: #f6f8f9;
@@ -311,36 +387,11 @@
     border-bottom: 1px solid #edf1f2;
   }
   
+  /* ==============================================
+     7. Pricing
+  ===============================================*/
   
   .pricing-box {
-    background-color: #ffffff;
-    background-image: url(https://images.unsplash.com/photo-1639477735279-c36dda1f7ebb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hcnN8ZW58MHx8MHx8fDA=);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 40px 20px;
-    border: 1px solid #f8f9fb;
-    border-radius: 6px;
-    box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04),
-      0 10px 16px 0 rgba(10, 31, 68, 0.06);
-    margin-top: 30px;
-  }
-
-  .pricing-box2 {
-    background-color: #ffffff;
-    background-image: url(https://github.com/NelNel147/Nebula/blob/main/images/saturn.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 40px 20px;
-    border: 1px solid #f8f9fb;
-    border-radius: 6px;
-    box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04),
-      0 10px 16px 0 rgba(10, 31, 68, 0.06);
-    margin-top: 30px;
-  }
-
-  .pricing-box3 {
     background-color: #ffffff;
     padding: 40px 20px;
     border: 1px solid #f8f9fb;
@@ -400,124 +451,17 @@
   .pricing-box .demo {
     color: #ef8c15 !important;
   }
-
-  .pricing-box2 h3 {
-    font-size: 22px;
-    font-weight: 300;
-    letter-spacing: 0.1em;
-    color: #4b95a3ff;
-  }
   
-  .pricing-box2 h6 {
-    font-size: 60px;
-    font-weight: 700;
-    color: #3a3f52;
-    margin-bottom: 0px;
-  }
-  
-  .pricing-box2 p {
-    font-size: 17px;
-    margin-top: 15px;
-    padding: 0px;
-  }
-  
-  .pricing-box2 ul {
-    padding-left: 10px;
-  }
-  
-  .pricing-box2 li {
-    font-size: 14px;
-    font-weight: 300;
-    color: #8da2b5;
-    letter-spacing: 0.1em;
-  }
-  
-  .pricing-box2 span {
-    font-weight: 500;
-    color: #4b95a3ff;
-  }
-  
-  .pricing-box2 small {
-    color: #8da2b5;
-    letter-spacing: 0.2em;
-  }
-  
-  .pricing-box2 i {
-    font-size: 20px;
-    color: #4b95a3ff;
-    margin-right: 10px;
-  }
-  
-  .pricing-box2 .demo {
-    color: #ef8c15 !important;
-  }
-
-
-  .pricing-box3 h3 {
-    font-size: 22px;
-    font-weight: 300;
-    letter-spacing: 0.1em;
-    color: #4b95a3ff;
-  }
-  
-  .pricing-box3 h6 {
-    font-size: 60px;
-    font-weight: 700;
-    color: #3a3f52;
-    margin-bottom: 0px;
-  }
-  
-  .pricing-box3 p {
-    font-size: 17px;
-    margin-top: 15px;
-    padding: 0px;
-  }
-  
-  .pricing-box3 ul {
-    padding-left: 10px;
-  }
-  
-  .pricing-box3 li {
-    font-size: 14px;
-    font-weight: 300;
-    color: #8da2b5;
-    letter-spacing: 0.1em;
-  }
-  
-  .pricing-box3 span {
-    font-weight: 500;
-    color: #4b95a3ff;
-  }
-  
-  .pricing-box3 small {
-    color: #8da2b5;
-    letter-spacing: 0.2em;
-  }
-  
-  .pricing-box3 i {
-    font-size: 20px;
-    color: #4b95a3ff;
-    margin-right: 10px;
-  }
-  
-  .pricing-box3 .demo {
-    color: #ef8c15 !important;
-  }
-
-  .demo2 {
-    color: blue !important
-  }
-  
-  .demo3 {
-    color: brown !important
-  }
   .not-inlcuded {
     text-decoration: line-through !important;
   }
   
+  /* ==============================================
+     8. Call to Action
+  ===============================================*/
   
   #call-to-action {
-    background-image: url("https://media3.giphy.com/media/elcAvTEXkG02d17sr7/giphy.gif?cid=ecf05e475s5z0hfbwc7o80ibznsjwnxm50hm4z9ng6r4jmk0&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-image: url("https://preview.redd.it/angled-waves-v0-4u36ktors1la1.png?auto=webp&s=618480f4022dd0f1c953c5e51eca82c1df22f762");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -548,9 +492,74 @@
   #call-to-action .title-block {
     margin-bottom: 0px;
   }
-
+  
+  /* ==============================================
+     9. Footer
+  ===============================================*/
+  
+  footer {
+    background-color: #292c31;
+    padding: 60px 0;
+    color: #62656a;
+  }
+  
+  footer h5 {
+    color: #aeb3bd;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #62656a;
+    text-align: justify;
+    padding: 0px;
+  }
+  
+  footer li {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #62656a;
+  }
+  
+  footer a:hover {
+    color: #4b95a3ff;
+    text-decoration: none;
+  }
+  
+  footer i {
+    font-size: 25px;
+    color: #62656a;
+    margin-right: 10px;
+  }
+  
+  footer i:hover {
+    color: #4b95a3ff;
+  }
+  
+  footer small {
+    color: #62656a;
+    float: right;
+  }
+  
+  .external-links {
+    color: rgb(239, 140, 21);
+  }
+  
+  /* ==============================================
+     9. Media Queries
+  ===============================================*/
+  
   /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+  @media (max-width: 575.98px) {
     h2 {
       font-size: 34px !important;
       margin-bottom: 20px;
@@ -715,77 +724,3 @@
     }
   }
   
-  footer {
-    background-color: #292c31;
-    padding: 60px 0;
-    color: #62656a;
-  }
-  
-  footer h5 {
-    color: #aeb3bd;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 20px;
-  }
-  
-  footer p {
-    font-size: 12px;
-    font-weight: 300;
-    color: #62656a;
-    text-align: justify;
-    padding: 0px;
-  }
-  
-  footer li {
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 0.05em;
-    line-height: 1.5;
-    margin-bottom: 10px;
-  }
-  
-  footer a {
-    color: #62656a;
-  }
-  
-  footer a:hover {
-    color: #4b95a3ff;
-    text-decoration: none;
-  }
-  
-  footer i {
-    font-size: 25px;
-    color: #62656a;
-    margin-right: 10px;
-  }
-  
-  footer i:hover {
-    color: #4b95a3ff;
-  }
-  
-  footer small {
-    color: #62656a;
-    float: right;
-  }
-  
-  .review-img {
-      width: 70px;
-  border-radius: 50%;
-  }
-  
-  .card-review {
-      background-color: whitesmoke;
-      border-radius: 10pt;
-      margin: 10px;
-      padding: 5px;
-  }
-  
-  .mid-page {
-      background-color: rgb(156, 217, 197);
-      padding-bottom: 20pt;
-  }
-  
-    
-  .external-links {
-    color: orange;
-    }
