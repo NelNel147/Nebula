@@ -312,6 +312,11 @@
   }
   
   
+  #pricing {
+    background-color: black;
+  }
+
+
   .pricing-box {
     background-color: #ffffff;
     background-image: url('https://images.unsplash.com/photo-1639477735279-c36dda1f7ebb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hcnN8ZW58MHx8MHx8fDA=');
