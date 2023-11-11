@@ -314,6 +314,10 @@
   
   #pricing {
     background-color: black;
+    background-image: url(https://w.wallhaven.cc/full/ne/wallhaven-nev35w.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
 
 
