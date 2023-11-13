@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+  
+  @-webkit-keyframes shift {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes shift {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  .posters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .poster {
+    display: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 250px;
+    margin-right: 10px;
+    transform-style: preserve-3d;
+  }
+  .poster img {
+    width: 100%;
+    height: 100%;
+  }
+  .poster .source {
+    position: absolute;
+    top: 0;
+    transition: 0.3s all;
+  }
+  .poster .reflection, .poster::after {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transform-origin: bottom center;
+  }
+  .poster .reflection {
+    opacity: 0.5;
+    transform: rotateX(180deg);
+  }
+  .poster::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black 75%, transparent);
+    transform-origin: bottom center;
+    transform: scale(1.1) rotateX(180deg);
+  }
+  
+  a {
+    position: absolute;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    left: 25px;
+    top: 25px;
+  }
+  a img {
+    width: 100%;
+    height: 100%;
+    -webkit-animation: 5s pop infinite;
+            animation: 5s pop infinite;
+  }
+  
+  @-webkit-keyframes pop {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(1.5);
+    }
+    20% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes pop {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(1.5);
+    }
+    20% {
+      transform: scale(1);
+    }
+  }
