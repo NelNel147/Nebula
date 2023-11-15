@@ -1,25 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Luna</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" href="styles-sheets/system.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-sheets/system.css">
     <link rel="shortcut icon" href="images/planet.gif" type="image/x-icon">
-  </head>
-
-  <body>
-    <audio src="music/MAN ON THE MOON.mp3" autoplay loop="true">
-      <p>
-        If you are reading this, it is because your browser does not support the
-        audio element.
-      </p>
-      <div class="container">
-        <div class="centered">Luna</div>
-      </div>
-    </audio>
-    <div class="stars"></div>
-    <div class="moon"></div>
-  </body>
+    <title>Luna</title>
+</head>
+<body>
+    <video id="my-video" class="video-js" controls preload="auto" poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"autoplay data-setup='' loop>
+        <source src="videos/MAN ON THE MOON- The sounds of Apollo 11 remixed.mp4" type='video/mp4'>
+        </video>
+</body>
 </html>
