@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap');
 
  body {
-    font-family: "Roboto", sans-serif;
-    color: #3a3f52;
+  font-family: 'Turret Road', sans-serif;
   }
   
   h2 {
@@ -159,10 +158,6 @@
     background-color: #f09f3c;
   }
   
-  .btn-demo-small a {
-    color: #ffffff !important;
-  }
-  
   .btn-buy {
     color: #ffffff;
     background-color: #4b95a3ff;
@@ -181,7 +176,7 @@
   
   #hero {
     background-color: #f6f8f9;
-    background-image: url("https://getwallpapers.com/wallpaper/full/2/f/5/189033.jpg");
+    background-image: url("https://usagif.com/wp-content/uploads/gif/outerspace-6.gif");
     background-size: cover;
     background-position: center;
   }
@@ -209,7 +204,7 @@
   #hero p {
     font-size: 24px;
     font-weight: 300;
-    color: goldenrod;
+    color: black;
     margin-bottom: 0px;
     padding: 0px;
   }
@@ -221,6 +216,8 @@
     letter-spacing: 0.05em;
   }
   
+
+ 
   
   #marketing p {
     font-size: 20px;
@@ -317,8 +314,49 @@
   }
   
   
+  #pricing {
+    background-color: black;
+    background-image: url(https://w.wallhaven.cc/full/ne/wallhaven-nev35w.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
   .pricing-box {
     background-color: #ffffff;
+    background-image: url('https://images.unsplash.com/photo-1639477735279-c36dda1f7ebb?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hcnN8ZW58MHx8MHx8fDA=');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px 20px;
+    border: 1px solid #f8f9fb;
+    border-radius: 6px;
+    box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04),
+      0 10px 16px 0 rgba(10, 31, 68, 0.06);
+    margin-top: 30px;
+  }
+
+  .pricing-box2 {
+    background-color: #ffffff;
+    background-image: url('https://images.unsplash.com/photo-1639477878754-4119b60fb02a?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px 20px;
+    border: 1px solid #f8f9fb;
+    border-radius: 6px;
+    box-shadow: 0 0 1px 0 rgba(0, 12, 32, 0.04),
+      0 10px 16px 0 rgba(10, 31, 68, 0.06);
+    margin-top: 30px;
+  }
+
+  .pricing-box3 {
+    background-color: #ffffff;
+    background-image: url('https://images.unsplash.com/photo-1639548206755-b20081a7cadc?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     padding: 40px 20px;
     border: 1px solid #f8f9fb;
     border-radius: 6px;
@@ -378,6 +416,109 @@
     color: #ef8c15 !important;
   }
 
+  .pricing-box2 h3 {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #4b95a3ff;
+  }
+  
+  .pricing-box2 h6 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #3a3f52;
+    margin-bottom: 0px;
+  }
+  
+  .pricing-box2 p {
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 0px;
+  }
+  
+  .pricing-box2 ul {
+    padding-left: 10px;
+  }
+  
+  .pricing-box2 li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8da2b5;
+    letter-spacing: 0.1em;
+  }
+  
+  .pricing-box2 span {
+    font-weight: 500;
+    color: #4b95a3ff;
+  }
+  
+  .pricing-box2 small {
+    color: #8da2b5;
+    letter-spacing: 0.2em;
+  }
+  
+  .pricing-box2 i {
+    font-size: 20px;
+    color: #4b95a3ff;
+    margin-right: 10px;
+  }
+  
+  .pricing-box2 .demo {
+    color: #ef8c15 !important;
+  }
+
+
+  .pricing-box3 h3 {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #4b95a3ff;
+  }
+  
+  .pricing-box3 h6 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #3a3f52;
+    margin-bottom: 0px;
+  }
+  
+  .pricing-box3 p {
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 0px;
+  }
+  
+  .pricing-box3 ul {
+    padding-left: 10px;
+  }
+  
+  .pricing-box3 li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8da2b5;
+    letter-spacing: 0.1em;
+  }
+  
+  .pricing-box3 span {
+    font-weight: 500;
+    color: #4b95a3ff;
+  }
+  
+  .pricing-box3 small {
+    color: #8da2b5;
+    letter-spacing: 0.2em;
+  }
+  
+  .pricing-box3 i {
+    font-size: 20px;
+    color: #4b95a3ff;
+    margin-right: 10px;
+  }
+  
+  .pricing-box3 .demo {
+    color: #ef8c15 !important;
+  }
+
   .demo2 {
     color: blue !important
   }
@@ -391,7 +532,7 @@
   
   
   #call-to-action {
-    background-image: url("https://i.pinimg.com/originals/c3/16/27/c3162775635d404d6462187ea4b5941f.gif");
+    background-image: url("https://usagif.com/wp-content/uploads/gif/outerspace-28.gif");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;

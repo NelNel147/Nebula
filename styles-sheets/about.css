@@ -11,7 +11,7 @@
     background-image: url(/images/galaxy-background.jpg)
   }
   .about-text{
-    color: white;
+    color: yellow;
     text-align: right
     ;
   }
@@ -49,6 +49,7 @@
 
 body {
   font-family: monospace;
+  color:red;
 }
 
 .navbar-brand {
@@ -332,7 +333,8 @@ button:hover {
 }
 
 h1 {
-  color: chocolate;
+  color:yellow;
+  text-align: center;
 }
 
 #contact {
